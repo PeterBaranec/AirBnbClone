@@ -30,6 +30,10 @@
     margin-top: .2rem;
 }
 
-.card__price--bold {
+.bold {
     font-weight: 600;
+}
+
+.gray {
+    color: #918E9B;
 }

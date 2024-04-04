@@ -9,11 +9,11 @@ function Card() {
             <div className="card__stats">
                 <img src={star} alt="" className="card__star"/>
                 <span>5.0</span>
-                <span>(6)</span>
-                <span>USA</span>
+                <span className="gray">(6)</span>
+                <span className="gray">USA</span>
             </div>
             <p className="card__description">Life lessons with Katie Zaferes</p>
-            <p className="card__price"><span className="card__price--bold">From $136</span> / person</p>
+            <p className="card__price"><span className="bold">From $136</span> / person</p>
         </div>
     )
 }
