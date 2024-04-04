@@ -1,0 +1,43 @@
+.nav {
+    height: 70px;
+    box-shadow: 0px 8px 20px -5px rgba(0, 0, 0, 0.45);
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-logo {
+    width: 82px;
+    height: auto;
+    padding-left: 1rem;
+}
+
+.nav-image {
+    width: 400px;
+    height: auto;
+    margin-top: 2rem;
+}
+
+.nav-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 110%;
+    text-align: left;
+    padding-top: .625rem;
+    margin-left: 2.25rem;
+}
+
+.description {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 110%;
+    color: #222222;
+
+    width: 300px;
+    height: auto;
+    margin-left: 2.25rem;
+    margin-bottom: 3.125rem;
+}
