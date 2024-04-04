@@ -22,7 +22,10 @@
 }
 
 .card__description {
+    font-size: .75rem;
     margin-top: 0.2rem;
+    font-weight: normal;
+    text-align: left;
 }
 
 .card__price {
