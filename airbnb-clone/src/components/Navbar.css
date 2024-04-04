@@ -7,37 +7,40 @@
     align-items: center;
 }
 
-.nav-logo {
+.nav__logo {
     width: 82px;
     height: auto;
-    padding-left: 1rem;
+    margin-left: 1.875rem;
 }
 
-.nav-image {
+.nav__image {
     width: 400px;
     height: auto;
     margin-top: 2rem;
 }
 
-.nav-title {
+
+.nav__title,
+.nav__description {
     font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-size: 2.25rem;
     line-height: 110%;
-    text-align: left;
-    padding-top: .625rem;
     margin-left: 2.25rem;
+    text-align: left;
 }
 
-.description {
-    font-family: "Poppins", sans-serif;
+.nav__title {
+    font-weight: 600;
+    font-size: 2.25rem;
+    padding-top: .625rem;
+    color: #000000;
+}
+
+.nav__description {
     font-weight: 300;
     font-size: 1rem;
-    line-height: 110%;
     color: #222222;
 
     width: 300px;
     height: auto;
-    margin-left: 2.25rem;
     margin-bottom: 3.125rem;
 }
