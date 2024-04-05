@@ -28,8 +28,14 @@ body {
 }
 
 #root {
-  min-width: 550px;
+  width: 550px;
   margin: 0 auto;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
 }
