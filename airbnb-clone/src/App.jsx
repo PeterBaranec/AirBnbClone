@@ -5,19 +5,8 @@ import "./App.css";
 import data from "./data.js";
 
 function App() {
-  const cards = data.map((data) => {
-    return (
-      <Card
-        key={data.id}
-        img={data.coverImg}
-        rating={data.stats.rating}
-        reviewCount={data.stats.reviewCount}
-        location={data.location}
-        title={data.title}
-        price={data.price}
-        openSpots={data.openSpots}
-      />
-    );
+  const cards = data.map((item) => {
+    return <Card key={data.id} item={item} />;
   });
   return (
     <>
